@@ -5,7 +5,7 @@ import logo from '../../assets/GDSC.svg'
 
 const Navbar = () => {
     return (
-        <div className='flex items-center justify-center gap-96 p-7 border'>
+        <nav className='flex items-center justify-center border-b gap-96 p-7'>
             <div className='flex items-center justify-center gap-2'>
                 <img src={logo} alt="GDSC" width={40} height={40} />
                 <p>Google Developer Student Clubs</p>
@@ -14,10 +14,10 @@ const Navbar = () => {
                 <li className='flex items-center justify-center gap-1'>About GDSC <IoMdArrowDropdown /></li>
                 <li>Chapters</li>
                 <li>Upcoming events</li>
-                <li><IoIosSearch className='text-xl' /></li>
+                <li><IoIosSearch className='text-xl text-dodgerblue' /></li>
                 <li>Login</li>
             </ul>
-        </div>
+        </nav>
     )
 }
 
