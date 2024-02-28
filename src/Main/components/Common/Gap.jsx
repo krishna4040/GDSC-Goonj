@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Gap = () => {
+const Gap = ({ height }) => {
     return (
-        <div className='w-full h-11 bg-darkgray'></div>
+        <div className={`w-full bg-darkgray`} style={{
+            height: `${height}rem`
+        }}></div>
     )
 }
 
