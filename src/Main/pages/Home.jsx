@@ -5,6 +5,7 @@ import Hero from '../components/Home/Hero'
 import Gap from '../components/Common/Gap'
 import EventsSection from '../components/Home/EventsSection'
 import PreviousEvents from '../components/Home/PreviousEvents'
+import Footer from '../components/Home/Footer'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Gap height={2.75} />
             <PreviousEvents />
             <Gap height={2.75} />
+            <Footer />
         </>
     )
 }
