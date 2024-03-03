@@ -14,7 +14,7 @@ const Navbar = () => {
                 <p>Google Developer Student Clubs</p>
             </div>
             <ul className='items-center justify-center hidden gap-5 cursor-pointer lg:flex'>
-                <li className='flex items-center justify-center gap-1' onClick={() => navigate('/about')}>About GDSC <IoMdArrowDropdown /></li>
+                <li className='flex items-center justify-center gap-1'><a href="https://gdsc.community.dev/">About GDSC <IoMdArrowDropdown /></a></li>
                 <li>Chapters</li>
                 <li><a href="#upcoming-events">Upcoming events</a></li>
                 <li><IoIosSearch className='text-xl text-dodgerblue' /></li>
