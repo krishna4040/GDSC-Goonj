@@ -7,7 +7,7 @@ const EventsSection = () => {
     return (
         <section>
             <Heading text={"Upcoming events for you"} />
-            <div className='flex flex-col items-center justify-center gap-5'>
+            <div className='flex flex-col items-center justify-center gap-5 mx-auto'>
                 {
                     events.map(event => <Card
                         description={event.desc}

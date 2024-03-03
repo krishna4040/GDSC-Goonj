@@ -6,7 +6,7 @@ const PreviousEvents = () => {
     return (
         <section>
             <Heading text={"Previous Events"} />
-            <div className='w-11/12 p-20 mx-auto'>
+            <div className='w-11/12 mx-auto mb-10 lg:p-20'>
                 <img src={events} alt="events" />
             </div>
         </section>
