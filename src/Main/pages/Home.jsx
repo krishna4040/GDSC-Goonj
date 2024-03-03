@@ -8,7 +8,7 @@ import EventsSection from '../components/Home/EventsSection'
 const Home = () => {
     return (
         <>
-            <Panel text={"This website uses cookies"}/>
+            <Panel text={"GDSC Google developer student clubs"}/>
             <Navbar />
             <Hero />
             <Gap height={2.75} />

@@ -28,7 +28,15 @@ const Hero = () => {
                 </div>
             </div>
             <div>
-                <p>13, 14 and 15 March</p>
+                <div className=''>
+                    <div className='relative flex justify-center'>
+                        <img src={squarePlate} alt="" height={400} width={400} />
+                        <img src={squarePlate} alt="" height={400} width={400} />
+                        <img src={ellipse} alt="ellipse" width={60} className='absolute top-0 left-80' />
+                        <img src={circle2} alt="circle" width={60} className='absolute top-10 right-64' />
+                        <p className='absolute w-full text-5xl font-bold top-[calc(50%-30px)] left-[calc(50%-180px)]'>13, 14 and 15 March</p>
+                    </div>
+                </div>
             </div>
         </section>
     )
