@@ -5,7 +5,7 @@ import Hero from '../components/Common/Hero'
 import Gap from '../components/Common/Gap'
 import EventsSection from '../components/Home/EventsSection'
 import PreviousEvents from '../components/Home/PreviousEvents'
-import Footer from '../components/Home/Footer'
+import Footer from '../components/Common/Footer'
 
 import GOONJ from '../assets/GOONJ.svg'
 import Cross from '../assets/cross.svg'

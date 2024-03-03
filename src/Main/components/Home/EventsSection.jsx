@@ -5,7 +5,7 @@ import Heading from './Heading'
 
 const EventsSection = () => {
     return (
-        <section>
+        <section id='upcoming-events'>
             <Heading text={"Upcoming events for you"} />
             <div className='flex flex-col items-center justify-center gap-5 mx-auto'>
                 {

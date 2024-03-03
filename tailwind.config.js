@@ -15,6 +15,7 @@ export default {
         darkgray: "#979494",
         gray: "rgba(0, 0, 0, 0.4)",
         whitesmoke: "#f9f2f2",
+        lightgray: "#f1f3f4"
       },
       fontFamily: {
         phetsarath: "Phetsarath",
